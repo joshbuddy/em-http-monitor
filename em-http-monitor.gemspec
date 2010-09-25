@@ -3,7 +3,7 @@ require File.expand_path("../lib/em-http-monitor/version", __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "em-http-monitor"
-  s.version     = Em::Http::MonitorFactory::VERSION
+  s.version     = EM::Http::MonitorFactory::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = []
   s.email       = []
