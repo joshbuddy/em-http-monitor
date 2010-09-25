@@ -1,0 +1,4 @@
+{"mode":"send","data":"GET / HTTP/1.1\r\nUser-Agent: EventMachine HttpClient\r\nHost: www.google.ca\r\n\r\n","id":2156920860}
+{"mode":"receive","data":"HTTP/1.1 200 OK\r\nDate: Wed, 22 Sep 2010 06:43:25 GMT\r\nContent-length: 9\r\n\r\nheyheyhey","id":2156920860}
+{"mode":"send","data":"GET / HTTP/1.1\r\nUser-Agent: EventMachine HttpClient\r\nHost: news.google.com\r\n\r\n","id":2150286760}
+{"mode":"receive","data":"HTTP/1.1 200 OK\r\nDate: Wed, 22 Sep 2010 06:43:25 GMT\r\nContent-length: 9\r\n\r\nyupyupyup","id":2150286760}

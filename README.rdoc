@@ -1,0 +1,31 @@
+= Eventmachine HTTP monitor
+
+This does four things.
+
+== Print out debug info 
+
+  EM::Http::Monitor.debug(STDOUT)
+  # ...
+  EM::Http::Monitor.disconnect
+
+And you'll get useful debug info
+
+== Dump requests to disk
+
+  EM::Http::Monitor.dump("/path/to/directory")
+  # ...
+  EM::Http::Monitor.disconnect
+
+This will dump requests to disk.
+
+== Defer to disk or dump new
+
+  EM::Http::Monitor.use_and_dump("/path/to/directory")
+
+This will use fixtures if found, or, dump new requests to the file.
+
+== Only use dumped requests
+
+  EM::Http::Monitor.use("/path/to/directory")
+
+This will only use fixtures if found, or, errback.
