@@ -1,6 +1,6 @@
-module Em
+module EM
   module Http
-    module Monitor
+    class MonitorFactory
       VERSION = "0.0.1"
     end
   end
